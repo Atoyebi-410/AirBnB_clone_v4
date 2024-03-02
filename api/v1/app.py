@@ -41,5 +41,17 @@ def handle_404(exception):
 
     return(resp)
 
+app.config["KAPELAR"] = {
+    "title": "AirBnB clone Restful Api",
+    "uiversion": 3
+}
+
 if __name__ == "__main__":
-    app.run(getenv("HBNB_API_HOST"), getenv("HBNB_API_PORT"))
+    """ Main Function """
+    host = environ.get('HBNB_API_HOST')
+    port = environ.get('HBNB_API_PORT')
+    if not host:
+        host = '0.0.0.0'
+    if not port:
+        port = '5000'
+    app.run(host=host, port=port, threaded=True)
