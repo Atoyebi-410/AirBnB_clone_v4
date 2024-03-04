@@ -159,6 +159,8 @@ Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://tw
 
 Ibrahim Olanrewaju - [Github](https://github.com/Atoyebi-410)
 
+Keltouma Ouyahia - [Github](https://github.com/keltoumay)
+
 Second part of Airbnb: Joann Vuong
 
 Third part of Airbnb: Ibrahim Olanrewaju
